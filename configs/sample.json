@@ -1,7 +1,7 @@
 {
     "name": "pass",
-    "backup2folder": "/dockers/backupper-linux/backups",
-    "log2folder": "/dockers/backupper-linux/backups",
+    "backup2folder": "/dockers/backupper_linux/backups",
+    "log2folder": "/dockers/backupper_linux/backups",
     "backupDays": 7,
     "status": true,
     "mariadb": [

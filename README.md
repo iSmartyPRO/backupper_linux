@@ -106,7 +106,7 @@ A status file is created in the backup folder to indicate the success or failure
 ## CRONTAB
 
 ```
-30 23 * * * cd /dockers/backupper-linux && ./backup.sh --config ./configs/sample.json
+30 23 * * * cd /dockers/backupper_linux && ./backup.sh --config ./configs/sample.json
 ```
 
 ## License
