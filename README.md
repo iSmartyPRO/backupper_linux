@@ -103,6 +103,12 @@ The script generates log files for each backup session. Log files are named usin
 
 A status file is created in the backup folder to indicate the success or failure of the backup process. If all components are backed up successfully, the status file contains `OK`. If any error occurs, the status file contains `Bad`.
 
+## CRONTAB
+
+```
+30 23 * * * cd /dockers/backupper-linux && ./backup.sh --config ./configs/sample.json
+```
+
 ## License
 
 This project is open-source and available under the MIT License.
