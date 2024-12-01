@@ -1,0 +1,41 @@
+{
+    "name": "pass",
+    "backup2folder": "/dockers/backupper-linux/backups",
+    "log2folder": "/dockers/backupper-linux/backups",
+    "backupDays": 7,
+    "status": true,
+    "mariadb": [
+        {
+            "name": "mariadb-pass",
+            "enabled": "true",
+            "host": "mariadb",
+            "port": 3306,
+            "dbname": "pass",
+            "dbuser": "pass",
+            "dbpass": "Sup3rS3cur1tyAccess"
+        }
+    ],
+    "mongodb": [
+        {
+            "name": "mongodb-pass",
+            "enabled": "false",
+            "host": "mariadb",
+            "port": 27017,
+            "dbname": "vcard",
+            "dbuser": "pass",
+            "dbpass": "SuperPasswordHere"
+        }
+    ],
+    "folders": [
+        {
+            "name": "jwt",
+            "enabled": "true",
+            "path": "/dockers/pass/jwt"
+        },
+        {
+            "name": "gpg",
+            "enabled": "true",
+            "path": "/dockers/pass/gpg"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+backups/*.log
+backups/*.tar.gz
+configs/*.json
+!configs/sample.json
